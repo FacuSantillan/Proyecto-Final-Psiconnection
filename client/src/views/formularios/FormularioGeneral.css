@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white; /* Establece el fondo blanco */
+}
+
+.contenedorFormGeneral {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 68vh; /* Ajusta la altura a un valor menor */
+  background-color: white; /* Fondo blanco para el contenedor */
+  border-radius: 10px; /* Bordes redondeados para el contenedor */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  margin: 80px; /* Margen para separar del borde de la pantalla */
+}
+.contenidoFormularioGeneral {
+  background-image: linear-gradient(
+      rgba(253, 253, 253, 0.568),
+      rgba(253, 253, 253, 0.616)
+    ),
+    url('./FondoBotones.jpeg');
+  background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+  background-repeat: no-repeat;
+  font-family: 'Montserrat', sans-serif;
+  color: #5e5f5e;
+  height: 80vh; /* Ajusta la altura del contenedor */
+  width: 100%; /* Utiliza toda la anchura disponible */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -40px; /* Margen para separar del borde de la pantalla */
+}
+
+.contenidoFormularioGeneral h1 {
+  font-size: 30px;
+  background-color: transparent;
+  margin-bottom: 10px; /* Agrega margen inferior para separar del siguiente elemento */
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: 20px; /* Agrega margen superior para separar del elemento anterior */
+}
+
+p {
+  font-size: 25px;
+  margin: 10px 0; /* Agrega margen superior e inferior */
+}
+
+.button-container {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin-top: 30px; /* Mayor espacio superior para los botones */
+}
+
+.button-groupLogin {
+  display: flex;
+  justify-content: center;
+  gap: 150px; /* Mayor espacio entre los botones */
+}
+.btn.SelectRol{
+  margin-top: 20px; 
+  background-color: #706AD4;
+  color: white; 
+  padding: 10px; /* Mayor tamaño de los botones */
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn.SelectRol:hover {
+  background-color: 
+  #BBBDEE; /* Color más oscuro al pasar el mouse */
+}

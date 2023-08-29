@@ -1,0 +1,45 @@
+
+.home{
+    display: flex;
+    flex-direction: row;
+    height: 100%
+    
+    
+}
+.col1Home{
+    display: flex;
+    justify-content: center;
+    background-color: #F1F0EA;
+    width: 15vw;
+    min-width: 13vw;
+
+}
+
+.col2Home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85vw;
+}
+.search_conteinerHome{
+    /* background-color: #F1F0EA; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.welcomeMessage {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    align-items: center;
+    text-align: center; 
+    color: #5e5f5e ; 
+    font-size: 30px; 
+    margin-bottom: 0.5%;
+    margin-top: 5%;
+  }
+.p1{
+    margin-top: 7%;
+}

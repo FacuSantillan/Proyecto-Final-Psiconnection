@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+/* #706AD4 Morado oscuro como botones y eso
+#BBBDEE Morado claro, como fondo 
+#5E5F5E 
+#F1F0EA */
+body {
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0; 
+}
+
+.navbar {
+  background-color: transparent; 
+  /* color: #FFFFFF; */
+  min-height: 90px;
+  height: 11vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  z-index: 99999;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.nav-link.active {
+  color: #706AD4; 
+}
+
+.navbar-container {
+  background-color: #fff;
+  position: absolute;
+  width: 38%;
+  margin-top: -60px;
+  margin-left: 60%;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.navbar-logo {
+  height: 90px;
+  margin-top: 1%; 
+  margin-left: 30%;
+}
+.logoNameHome {
+  color: #5e5f5e;
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+  position: absolute;
+  margin-top: -60px; 
+  left: 8%;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+}
+
+.nav-item {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-item-perfil {
+  justify-self: end;
+}
+
+.foto_perfil {
+  height: 40px;
+  border-radius: 100%;
+}
+
+.nav-item :hover {
+  color: #706AD4;
+  transform: translateY(-3px);
+}
+
+
+.nav-icon {
+  font-size: 20px;
+  margin-right: 5px;
+  color: #706AD4;
+}
+.conteiner_links a{
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+/* 
+.navbar {
+  
+  min-height: 90px;
+  height: 11vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  text-decoration: none;
+}
+.navbar-container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.navbar-logo_conteiner{
+  position: relative;
+  left: -6%;
+  height:80px;
+  width: 185px;
+}
+
+.navbar-logo {
+  height: 80px;
+  margin-top: 1%; 
+  margin-left: 1%;
+}
+.nav-menu {
+  list-style: none;
+  display: flex;
+  margin-bottom: 0; 
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-right: 25px; /* Un poco más de espacio entre los ítems */
+
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+.nav-item a {
+  color: #fff;
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.1rem; 
+  transition: color 0.3s ease;
+}
+
+.nav-item-perfil{
+  justify-self: end;
+  color: #fff;
+  position: relative;
+  top: 1px;
+  font-size: 17px;
+}
+.conteiner_foto-perfil{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+
+}
+.aversiasi{
+  text-decoration: none;
+}
+.foto_perfil{
+  height: 35px;
+  width: 35px;
+  border-radius: 100px;
+  margin-right:2px ;
+}
+
+.nav-item a:hover {
+  color: #565656; /* Color más vibrante al hacer hover */
+  transform: translateY(-2px); /* Efecto de elevación */
+}
+.conteiner_links :hover {
+  color: #565656; /* Color más vibrante al hacer hover */
+  transform: translateY(-2px); /* Efecto de elevación */
+}

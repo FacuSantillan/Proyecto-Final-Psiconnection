@@ -1,0 +1,51 @@
+/* Pagination.module.css */
+
+.paginationContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.btn {
+  background-color: #706AD4;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn:hover {
+  background-color: #BBBDEE;
+}
+
+.pageIndicator {
+  width: 30px;
+  height: 30px;
+  background-color: #706AD4;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.prueba {
+    height: 100%;
+    width: 100%;
+  
+  /* align-items: center;   */
+} 

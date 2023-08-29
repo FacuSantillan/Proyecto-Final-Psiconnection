@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white; /* Establece el fondo blanco */
+}
+.containerLoginPsico {
+  position: relative;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  background-color: (255, 255, 255, 0.5);
+  background-image: url('./FondoLoginPsico.jpg');
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  margin: 40px; /* Agregamos un margen para separarlo del borde de la pantalla */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  border-radius: 10px; /* Bordes redondeados */
+  margin-top: -0.6%;
+}
+.login-formPsico {
+  position: relative;
+  background-color: #F1F0EA ;
+  max-width: 900px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+.error-message {
+  color: #e74c3c;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.form-groupLogPsico label {
+  display: block;
+  margin-bottom: 6px;
+}
+.form-groupLogPsico label .bx {
+  margin-right: 5px;
+  margin-top: 10px;
+  color: #706AD4;
+}
+.form-groupLogPsico select {
+  width: 42%; /* Puedes ajustar este valor según tus necesidades */
+}
+
+.form-groupLogPsico input{
+  width: 250px;
+}
+
+.errores {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.btnIsPsico {
+  position: relative;
+  left: 25%;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  width: 50%;
+  padding: 10px;
+  background-color: #706AD4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #BBBDEE;
+}
+
+.register-link {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #5E5F5E;
+}
+
+.register-link-textPsico {
+  color: #706AD4;
+  text-decoration: none;
+}
+
+.link-back {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #5E5F5E;
+}
+
+.back-link {
+  text-decoration: none;
+  color: #5E5F5E;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+.h2Psico{
+  position: inherit;
+  color: #706AD4;
+  font-weight: bold;
+  top: -15px;
+  left: 3px;
+  justify-content: center;
+}
+/* h3{
+  margin-top: 5px;
+  position: relative;
+  font-size: 14px;
+  color: #5E5F5E;
+} */
+.h4Psico {
+  justify-content: center;
+  font-size: 20px;
+  color: #5E5F5E;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

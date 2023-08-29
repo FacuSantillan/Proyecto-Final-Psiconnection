@@ -1,0 +1,172 @@
+/* #706AD4 
+#BBBDEE 
+#5E5F5E 
+#F1F0EA  */
+
+/* .react-calendar__tile:hover {
+    background-color: inherit;
+    color: inherit;
+    border: none;
+    cursor: default;
+} */
+
+.turnos {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 90%;
+}
+
+.unvalidate-day {
+    background-color: #d3d3d3;
+    color: red;
+    cursor: not-allowed;
+
+}
+
+.validate-day {
+    background-color: #fff;
+    color: black;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+.info_turno{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.view-appointment-date{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 0;
+    width: 100%;
+    gap: 10px;
+}
+.precio{
+    color: black;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #BBBDEE;
+    border: 1px solid #ddd; /* Borde sutil */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}   
+.dia{
+    color: black;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #BBBDEE;
+    border: 1px solid #ddd; /* Borde sutil */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+.hora {
+    color: black;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #BBBDEE;
+    border: 1px solid #ddd; /* Borde sutil */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); 
+}
+.horario{
+    position: static;
+    color: black;
+
+}
+
+
+.horaios {
+    text-align: center;
+}
+
+.horas_conteiner {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 18px;
+
+}
+
+.validate {
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 10;
+    border: #2b4c7e 1px solid;
+    cursor: pointer;
+
+
+}
+
+.validate label {
+    cursor: pointer;
+}
+
+.validate_active {
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 10;
+    background-color: rgb(190, 187, 187);
+    border: #2b4c7e 1px solid;
+}
+
+.unvalidate {
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 10;
+    background-color: rgba(255, 0, 0, 0.423);
+    cursor: no-drop;
+
+}
+
+.no_pedir_turno {
+    font-size: 20px;
+    height: 70px;
+    margin-top: 15px;
+    align-self: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    background-color: rgb(139, 139, 139);
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+
+    cursor: no-drop;
+}
+
+.pedir_turno {
+    font-size: 20px;
+    height: 70px;
+    margin-top: 15px;
+    align-self: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    background-color: rgb(253, 253, 0);
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+
+    &:hover {
+        background-color:rgb(202, 202, 4) ;
+    }
+}
+.emoji {
+    margin-top: 0;
+ }

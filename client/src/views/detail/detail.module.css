@@ -1,0 +1,205 @@
+/* #706AD4 
+#BBBDEE 
+#5E5F5E 
+#F1F0EA  */
+
+.detail_conteiner {
+    height: 100%;
+    padding-top: 15vh;
+    background-color: #F1F0EA;
+    width: 100%;
+}
+
+.detail {
+    display: flex;
+    height: 100%;
+    padding-top: 3vh;
+    background-color: #F1F0EA;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+}
+
+.view_psico {
+    /* margin-left: 13vw; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #ffff;
+    /* min-width: 520px; */
+    min-height: 90vh;
+    height: fit-content;
+    width: 40%;
+    border-radius: 20px;
+}
+
+.foto_conteiner {
+    height: 100%;
+    min-width: 217px;
+    width: 50%;
+}
+
+.foto_conteiner img {
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.info_psyco {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-width: 222px;
+    width: 50%;
+
+}
+
+.name {
+    margin-top: 50px;
+    margin-left: 30px;
+    font-family: "Arial", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #706AD4;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #706AD4;
+}
+
+.especialidades {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 30px;
+    color: black;
+    font-weight: 400;
+}
+
+.especialidad {
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 40px;
+    color: black;
+    font-size: 20px;
+
+}
+
+.tarifa {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 1.1rem;
+    color: #e91e63;
+    margin-top: 5px;
+}
+
+.time {
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size: 15px;
+    color: gray;
+}
+
+.contactar {
+    font-size: 20px;
+    margin-top: 25px;
+    align-self: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    background-color: #706AD4;
+    color: white;
+    border-radius: 10px;
+}
+
+.emoji {
+    margin-top: 0;
+}
+
+
+
+.label {
+    font-family: "Arial", sans-serif;
+    font-size: 28px;
+    position: relative;
+    left: 12px;
+    color: black;
+    font-weight: 650;
+    margin-bottom: 2px;
+    text-decoration: wavy;
+}
+
+.info {
+    margin-left: 15px;
+}
+
+.info p {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+
+.descripcion {
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: 400;
+
+
+}
+.rating_conteiner{
+    border-top: 2px solid #706AD4;
+}
+
+.turno_conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffff;
+    min-height: 400px;
+    height: fit-content;
+    /* min-width: 382px; */
+    width: 30vw;
+    right: 15vw;
+    border-radius: 20px;
+
+}
+
+.turno_conteiner h1 {
+    font-size: 30px;
+    display: inline-block;
+    width: 100%;
+    background-color: #5E5F5E ;
+    color: #fff;
+    text-align: center;
+    /* border-radius: 20px; */
+}
+
+.row1 {
+    width: 100%;
+    display: flex;
+}
+
+.row2 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: gray;
+}
+
+.row3 {
+    margin-top: 10px;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    /* Ajusta el tamaño según tus necesidades */
+    font-size: 1.5rem;
+    color: #333;
+    /* Color del texto */
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Fondo semitransparente */
+}
